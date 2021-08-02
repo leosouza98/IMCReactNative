@@ -8,7 +8,7 @@ export default function Form(){
     const [weight, setWeight]= useState(null);
     const [messageImc, setMessageImc]= useState("preencha o peso e altura");
     const [Imc, setImc]= useState(null);
-    const [textButton, setTextButton]= useState("Calcular");
+    const [textButton, setTextButton]= useState("Calcula ai Gordão");
 
 function imcCalculator (){
     return setImc((weight/(height*height)).toFixed(2))

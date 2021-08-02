@@ -6,7 +6,7 @@ export default function Form(){
  
     const [height, setHeight]= useState(null);
     const [weight, setWeight]= useState(null);
-    const [messageImc, setMessageImc]= useState("preencha o peso e altura mano");
+    const [messageImc, setMessageImc]= useState("preencha o peso e altura");
     const [Imc, setImc]= useState(null);
     const [textButton, setTextButton]= useState("Calcular");
 
